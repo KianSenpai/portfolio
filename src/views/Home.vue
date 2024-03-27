@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-    <div>hi</div>
+    <div class="flex">hi</div>
 </template>
 
 <style scoped></style>
