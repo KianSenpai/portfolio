@@ -3,7 +3,7 @@ import Button from './Button.vue'
 </script>
 
 <template>
-    <div class="sticky flex w-full justify-between py-4">
+    <div class="sticky z-50 flex w-full justify-between py-4">
         <div class="flex gap-6">
             <span>home</span>
             <span>projects</span>
