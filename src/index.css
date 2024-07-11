@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Outfit:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+Mono:regular,bold,italic&subset=latin,latin-ext');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    color-scheme: light dark;
+    background-color: #F9FAFB;
+    color: #1F2937;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    overflow: auto;
+}
+
+html {
+    font-family: 'Outfit', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    height: 100%;
+}
